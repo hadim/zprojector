@@ -109,7 +109,7 @@ public class ZProjectorProcessor extends DataProcessor{
         projectedImage.setOpenAsHyperStack(true);
         
         String title = MDUtils.getSummary(image.tags).getString("Prefix");
-        projectedImage.setTitle(title);
+        projectedImage.setTitle("MAX_" + title);
 
         tmpImage = new ImagePlus();
     }
