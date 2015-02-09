@@ -6,7 +6,7 @@ During MDA with Z slices, ZProjector can be used to display a second window on w
 
 ## Install
 
-- Download [ZProjector.jar](https://raw.githubusercontent.com/hadim/zprojector/master/ZProjector.jar).
+- Download [ZProjector.jar](https://raw.githubusercontent.com/hadim/zprojector/master/ZProjector.jar). (compiled with OpenJDK 1.6).
 - Put it in `mmplugins/` in Micro-Manager (MM) installation directory.
 - Launch MM
 - Select Plugins > On-The-Fly Processors > Configure Processors

@@ -69,6 +69,14 @@ public class ZProjectorProcessor extends DataProcessor{
                     ReportingUtils.logError(ex);
             }
         }
+        else{
+        	try{
+        		TaggedImage image = (TaggedImage) poll();
+        		produce(image);
+        	} catch (Exception ex) {
+                ReportingUtils.logError(ex);
+        	}		
+        }
     }
 
     public TaggedImage proccessTaggedImage(TaggedImage image) throws JSONException, MMScriptException {
